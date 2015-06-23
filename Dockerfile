@@ -4,7 +4,8 @@ MAINTAINER John McCallum john.mccallum@plantandfood.co.nz
 
 # Set noninterative mode
 ENV DEBIAN_FRONTEND noninteractive
-
+#ENV http_proxy {proxy_url}:{PORT}
+#ENV https_proxy {proxy_url}:{PORT}
 ################## BEGIN INSTALLATION ######################
 
 ## ipython/ipython is 14.04 (trusty) and ncurses is for samtools and precise dependencies are unresolved
